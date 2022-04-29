@@ -1,0 +1,30 @@
+@media (max-width: 1000px) {
+    .onDesc, .mobHide {
+        display: none !important;
+    }
+
+    .accord-footer-head {
+        position: relative;
+        padding: 16px 0;
+        cursor: pointer;
+        margin-bottom: 0 !important;
+    }
+
+    .accord-footer-head:after {
+        content: "+";
+        font-size: 25px;
+        line-height: 1;
+        color: #A3A3A3;
+        position: absolute;
+        top: 12px;
+        right: 0;
+    }
+
+    .accord-footer-head.active:after {
+        content: "-";
+    }
+
+    .accord-footer-hide {
+        display: none;
+    }
+}
